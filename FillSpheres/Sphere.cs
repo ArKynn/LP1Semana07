@@ -7,7 +7,7 @@ public class Sphere
     public Color color;
     private int radius;
     private int timesThrown;
-    private string name;
+    private readonly string name;
 
     public Sphere(Color color, int radius, string name)
     {
