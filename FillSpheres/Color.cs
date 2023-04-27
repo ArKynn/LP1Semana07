@@ -56,4 +56,9 @@ public class Color
     {
         this.alpha = input;
     }
+
+    public int GetGrey()
+    {
+        return (this.red + this.green + this.blue) / 3;
+    }
 }
