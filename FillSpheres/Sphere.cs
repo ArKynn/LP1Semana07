@@ -7,12 +7,14 @@ public class Sphere
     public Color color;
     private int radius;
     private int timesThrown;
+    private string name;
 
-    public Sphere(Color color, int radius)
+    public Sphere(Color color, int radius, string name)
     {
         this.color = color;
         this.radius = radius;
         timesThrown = 0;
+        this.name = name;
     }
 
     public void Pop()
@@ -36,5 +38,10 @@ public class Sphere
     public int GetRadius()
     {
         return this.radius;
+    }
+
+    public string GetName()
+    {
+        return this.name;
     }
 }
