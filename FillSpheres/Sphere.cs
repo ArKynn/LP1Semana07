@@ -32,4 +32,9 @@ public class Sphere
     {
         return timesThrown;
     }
+
+    public int GetRadius()
+    {
+        return this.radius;
+    }
 }
