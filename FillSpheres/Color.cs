@@ -9,12 +9,12 @@ public class Color
     private int blue;
     private int alpha;
 
-    public Color(int red, int green, int blue, int alpha)
+    public Color(int red, int green, int blue)
     {
         this.red = red;
         this.green = green;
         this.blue = blue;
-        this.alpha = 255;
+        alpha = 255;
     }
 
     public int GetRed()
