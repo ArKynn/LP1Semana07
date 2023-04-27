@@ -4,7 +4,7 @@ namespace FillSpheres;
 
 public class Sphere
 {
-    private Color color;
+    public Color color;
     private int radius;
     private int timesThrown;
 
