@@ -3,9 +3,9 @@
 public class Sphere
 {
     public Color color;
-    private int radius { get; set; }
-    private int timesThrown { get; set; }
-    private string name { get; }
+    public int radius { get; set; }
+    public int timesThrown { get; set; }
+    public string name { get; }
 
     public Sphere(Color color, int radius, string name)
     {
