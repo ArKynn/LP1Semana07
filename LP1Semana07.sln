@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FillSpheres", "FillSpheres\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetterFillSpheres", "BetterFillSpheres\BetterFillSpheres.csproj", "{963CEFCB-AEE7-4083-9E46-7FBDB70488F9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JustScored", "JustScored\JustScored.csproj", "{22E5D691-642A-4065-BA37-64704DE5ED61}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{963CEFCB-AEE7-4083-9E46-7FBDB70488F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{963CEFCB-AEE7-4083-9E46-7FBDB70488F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{963CEFCB-AEE7-4083-9E46-7FBDB70488F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22E5D691-642A-4065-BA37-64704DE5ED61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22E5D691-642A-4065-BA37-64704DE5ED61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22E5D691-642A-4065-BA37-64704DE5ED61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22E5D691-642A-4065-BA37-64704DE5ED61}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
