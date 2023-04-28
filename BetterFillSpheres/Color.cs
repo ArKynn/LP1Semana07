@@ -6,7 +6,7 @@ public class Color
     private int red { get; set; }
     private int green { get; set; }
     private int blue { get; set; }
-    private int alpha { get; set; }
+    private int alpha { get; }
 
     public Color(int red, int green, int blue)
     {
